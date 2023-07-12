@@ -1,0 +1,13 @@
+block_size = 256
+max_iter = 5000
+eval_iter = 200
+batch_size = 64
+vocab_size = 65
+n_embed = 384
+n_layer = 6
+learning_rate = 3e-4
+compile=False
+device_comp='cuda'
+head_size = 16
+num_heads = 6
+dropout = 0.2
